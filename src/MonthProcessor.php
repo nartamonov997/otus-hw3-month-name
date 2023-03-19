@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Nartamonov\Hw3;
 
+use Exception;
+
 class MonthProcessor
 {
     public function getMonthName(int $monthNumber): string
@@ -26,8 +28,7 @@ class MonthProcessor
             case 8:
                 return 'Август';
             case 9:
-                echo 'Сентябрь';
-                break;
+                return 'Секнтябрь';
             case 10:
                 return 'Октябрь';
             case 11:

@@ -14,5 +14,5 @@ $ composer require nartamonov997/otus-hw3-month-name
 ```php
 <?php
 $processor = new MonthProcessor();
-echo processor->getMonthName(1); // Январь
+echo $processor->getMonthName(1); // Январь
 ```
